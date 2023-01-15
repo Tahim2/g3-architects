@@ -1,0 +1,361 @@
+/* Font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+
+/* -----------
+    Common style
+         ----------- */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: #FFFFFF;
+    width: 100%;
+
+}
+
+/* -----------
+     Header style
+             --------- */
+
+.header {
+
+    width: 2520px;
+    height: 1322px;
+    background-color: rgba(255, 144, 14, 0.1);
+
+
+}
+
+
+.company-name {
+    margin-left: 540px;
+    margin-top: 50px;
+    font-size: 45px;
+    white-space: nowrap;
+
+}
+
+/* --------
+    nav style
+         ------- */
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-left: 750px;
+    margin-top: 63px;
+    margin-right: 540px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+    color: #424242;
+    white-space: nowrap;
+
+}
+
+/* --------
+      Banner style
+          ---------- */
+.banner {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin: 150px 540px 30px 540px;
+
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin: 0 540px 30px 540px;
+}
+
+button {
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FF900E;
+    border: 0;
+    margin: 0 1170px 30px 1170px;
+}
+
+button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.banner img {
+    width: 1440px;
+    height: 700px;
+    margin-left: 540px;
+    margin-bottom: 45px;
+}
+
+
+/* ---------
+         Main style
+            ------------ */
+.container {
+    width: 2520px;
+}
+
+/* ---------
+     Feature info 
+           -------- */
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 130px 840px 130px 540px;
+    gap: 60px;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.feature-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: left;
+    margin-top: 180px;
+    text-align: left;
+    Width: 537px;
+    Height: 304px;
+}
+
+
+.feature-info h3 {
+    font-size: 85px;
+    Width: 468px;
+    Height: 106px;
+}
+
+.feature-description p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    Width: 537px;
+    Height: 78px;
+}
+
+.feature-info button {
+    margin: 0;
+}
+
+/* --------
+       Feature Detail */
+.feature-detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin-left: 15px;
+}
+.feature-detail .feature-title{
+    border-left: 4.9px solid #FF900E;;
+    
+}
+.lovely-features h3{
+    margin-left: 15PX;
+}
+
+.lovely-features {
+    margin-left: 540px;
+}
+
+.lovely-features .feature-title {
+    width: 458.9px;
+    height: 106px;
+    font-size: 45px;
+}
+
+.feature-detail-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.lovely-feature {
+    width: 574.61px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.lovely-feature-title {
+    width: 246.12px;
+    height: 46px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.lovely-feature-description {
+    width: 504.01px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.experience button {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 335.35px;
+    height: 200px;
+    margin: 880px 0px 0px 0px;
+
+}
+
+.experience {
+    background-image: url('/images/architect.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 694.23px;
+    height: 982px;
+
+
+}
+
+/*----------
+     some facts style
+             ------------ */
+
+
+.some-facts{
+    margin-top: 130px;
+    text-align: center;
+    
+}
+.facts h3{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+
+.facts p{
+  margin-top: 25px;
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+
+.facts-elements{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 500px;
+    margin-top: 100px ;
+    margin-left: 540px;
+}
+.fact{
+    width: 241.83px;
+height: 241.83px;
+border: 1px solid #FF900E;
+border-radius: 8px;
+}
+.fact:hover {
+    background-color: lightsalmon;
+   
+  }
+.fact img{
+    margin-top: 50px;
+    width: 45.22px;
+height: 45.22px;
+}
+.fact h4{
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+margin-top: 10px;
+margin-bottom: 0;
+}
+.fact p{
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
+margin-top: 5px;
+
+}
+
+
+/* --------
+       sponsors style
+           -------------- */
+
+.sponsors{
+    margin-top: 130px;
+}
+
+.our-sponsors{
+    text-align: center;
+}
+.sponsor{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 540px;
+    margin-right: 500px;
+}
+.sponsor-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+margin-bottom: 0;
+
+}
+.our-sponsors p{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-top: 24px;
+margin-bottom: 30px;
+
+}
+#myImage {
+    opacity: 0.4;
+}
+
+
+/* ---------
+         footer style
+            ------------- */
+
+footer {
+    margin: 130px 250px 200px 540px;
+    background: #FFF4E7;
+border-radius: 8px;
+width: 1440px;
+height: 100px;
+
+}
+.copyright-description{
+    font-weight: 400;
+font-size: 20px;
+text-align: center;
+padding-top: 30px;
+padding-left: 150px;
+color: #424242;
+}
